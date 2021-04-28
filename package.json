@@ -36,5 +36,22 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Katherine1110/goit-react-hw-02-feedback.git"
+  },
+  "author": "KATHERINE_MIKHALOCHKINA <K.MIHALOCHKINA@GMAIL.COM>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Katherine1110/goit-react-hw-02-feedback/issues"
+  },
+  "homepage": "https://github.com/Katherine1110/goit-react-hw-02-feedback#readme"
 }
