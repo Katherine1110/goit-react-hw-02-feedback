@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import FeedbackOptions from "./FeedbackOptions/FeedbackOptions";
-import Statistics from "./Statistics/Statistics";
-import Section from "./Section/Section";
-import Notification from "./Notification/Notification";
+import React, { Component } from 'react';
+import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
+import Statistics from './Statistics/Statistics';
+import Section from './Section/Section';
+import Notification from './Notification/Notification';
 
 class Feedback extends Component {
   state = {
@@ -21,10 +21,10 @@ class Feedback extends Component {
     return (good * 100) / this.countTotalFeedback();
   };
 
-  hendleClick = (e) => {
+  hendleClick = e => {
     const { name } = e.target;
     // console.log(name);
-    this.setState((state) => ({ [name]: state[name] + 1 }));
+    this.setState(state => ({ [name]: state[name] + 1 }));
     this.countTotalFeedback();
     this.countPositiveFeedbackPercentage();
   };
@@ -33,7 +33,7 @@ class Feedback extends Component {
     const { good, neutral, bad } = this.state;
     const total = this.countTotalFeedback();
     const positiveFeedbackPercentage = Math.round(
-      this.countPositiveFeedbackPercentage()
+      this.countPositiveFeedbackPercentage(),
     );
     const ObjKey = Object.keys(this.state);
     return (
@@ -55,7 +55,7 @@ class Feedback extends Component {
               bad={bad}
               total={total}
               positivePercentage={positiveFeedbackPercentage}
-            ></Statistics>
+            />
           </Section>
         )}
       </div>

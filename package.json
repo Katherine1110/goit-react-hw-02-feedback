@@ -2,6 +2,7 @@
   "name": "goit-react-hw-02-feedback",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Katherine1110.github.io/goit-react-hw-02-feedback",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
@@ -52,6 +53,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Katherine1110/goit-react-hw-02-feedback/issues"
-  },
-  "homepage": "https://github.com/Katherine1110/goit-react-hw-02-feedback"
+  }
 }

@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
-import styles from "./Statistics.module.css";
+import React from 'react';
+import PropTypes from 'prop-types';
+import styles from './Statistics.module.css';
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   return (
@@ -21,7 +21,7 @@ Statistics.propTypes = {
   neutral: PropTypes.string,
   bad: PropTypes.string,
   total: PropTypes.number.isRequired,
-  positivePercentag: PropTypes.number.isRequired,
+  positivePercentag: PropTypes.number,
 };
 
 export default Statistics;
